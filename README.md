@@ -7,6 +7,8 @@ winda legacy code
 
 本期插件代码：
 
+链接：https://pan.baidu.com/s/1Xvn4M70e56h_qn1A0-jKeA?pwd=wdwd 
+提取码：wdwd
 
 1.15.0插件开发工具包：
 
