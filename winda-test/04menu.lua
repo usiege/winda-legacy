@@ -22,24 +22,24 @@ end
 
 -- 系统插件菜单
 local eventFrame = CreateFrame("Frame", nil, InterfaceOptionsFramePanelContainer)
-	eventFrame:SetScript("OnEvent", function(self, event, loadedAddon)
-		if loadedAddon ~= addonName then return end
-        SlashCmdList.BugSack = function(msg)
-			msg = msg:lower()
-			if msg == "show" then
-				addon:OpenSack()
-			else
-				InterfaceOptionsFrame_OpenToCategory(addonName)
-				InterfaceOptionsFrame_OpenToCategory(addonName)
-			end
+eventFrame:SetScript("OnEvent", function(self, event, loadedAddon)
+	if loadedAddon ~= addonName then return end
+    SlashCmdList.BugSack = function(msg)
+		msg = msg:lower()
+		if msg == "show" then
+			addon:OpenSack()
+		else
+			InterfaceOptionsFrame_OpenToCategory(addonName)
+			InterfaceOptionsFrame_OpenToCategory(addonName)
 		end
-		SLASH_BugSack1 = "/bugsack"
+	end
+	SLASH_BugSack1 = "/bugsack"
 
-		-- self:SetScript("OnEvent", nil)
-	end)
-	eventFrame:RegisterEvent("ADDON_LOADED")
-	addon.frame = eventFrame
-end
+	-- self:SetScript("OnEvent", nil)
+end)
+eventFrame:RegisterEvent("ADDON_LOADED")
+addon.frame = eventFrame
+
 
 
 local addonName, addon = ...
