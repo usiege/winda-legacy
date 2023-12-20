@@ -2,6 +2,23 @@
 winda legacy code
 
 
+
+## v0.0.6
+
+> 2023.12.20
+
+- 本期插件代码：
+
+链接：https://pan.baidu.com/s/18vhDHPv6zkNOufFj09XA3g?pwd=wdwd 
+提取码：wdwd 
+
+- 有关于插件讨论请到kook：
+
+https://kook.top/PYEQ2u
+
+
+
+
 ## v0.0.5
 
 > 2023.12.8

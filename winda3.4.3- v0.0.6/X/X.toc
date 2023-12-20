@@ -1,0 +1,4 @@
+# OptionalDeps: A
+
+anotherx.lua
+x.lua

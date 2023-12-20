@@ -1,0 +1,5 @@
+<ui xmlns="http://www.blizzard.com/wow/ui/">
+    <!-- 使用xml加载插件代码文件 -->
+    <script file="b.lua"/>
+    <include file="b-1.xml"/>
+</ui>

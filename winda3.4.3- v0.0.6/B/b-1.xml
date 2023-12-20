@@ -1,0 +1,34 @@
+<ui xmlns="http://www.blizzard.com/wow/ui/">
+    
+    <!-- <Button name="WDTestFrame" parent="UIParent">
+        <Size x="200" y="200"/>
+        <Anchor point="CENTER" relativePoint="CENTER" relativeTo="UIParent"/>
+        <Layers>
+            <Layer level="HIGH">
+                <NormalTexture name="$backImage" file="Interface/AddOns/B/winda256.png" setAllPoints="true"/>
+            </Layer>
+        </Layers>
+        <Scripts>
+            <OnClick>
+                print("点击了")
+            </OnClick>
+            <OnLoad>
+                print("这里是xml显示的窗口")
+            </OnLoad>
+            <OnEnter>
+            </OnEnter>
+        </Scripts>
+    </Button> -->
+    <!-- 这是一个不显示的Frame，用于测试已经加载了 -->
+    <Frame name="WDTestFrame" parent="UIParent">
+        <Scripts>
+            <OnLoad>
+                print("这里是xml显示的窗口")
+            </OnLoad>
+        </Scripts>
+    </Frame>
+    
+    <!-- 在xml文件里也可以加载子文件夹的lua代码文件 -->
+    <script file="sub/sub.lua"/>
+    
+</ui>

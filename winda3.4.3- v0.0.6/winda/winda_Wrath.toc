@@ -1,0 +1,20 @@
+## Interface: 30400
+
+## Title: winda
+## Title-zhCN: winda（巫妖王之怒）
+
+# 这是一个注释，不会在插件中有影响
+## Notes: Entities should not be multiplied unnecessarily.
+## Notes-zhCN: 温达集成插件，用最简洁的方式更改你的界面
+
+# 插件的文件加载
+## Version: 0.0.6
+## Author: usiege(github)
+
+## X-Documents: https://usiege.github.io/winda
+## X-Website: https://www.curseforge.com/wow/addons/winda
+
+
+# 通过toc加载代码
+# 这里相当于一个入口
+winda_Wrath.lua
